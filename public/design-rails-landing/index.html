@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Rails - Give Your AI Coding Agent Design Intelligence</title>
+    <meta name="description" content="Design Rails equips Claude Code and Cursor with your product context, design system, and proven UX patterns, so AI-generated code respects your design standards from the first line.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="/design-rails-landing/css/main.css">
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <!-- Theme Switcher -->
+    <div class="theme-switcher">
+        <a href="/" class="theme-btn active" data-theme="default">Default</a>
+        <a href="/minimal" class="theme-btn" data-theme="minimal">Minimal</a>
+        <a href="/old" class="theme-btn" data-theme="old">Old</a>
+    </div>
+
+    <!-- WebGL Canvas for Hero Background -->
+    <canvas id="hero-canvas"></canvas>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Give Your AI Coding Agent the Design Intelligence It's Missing</h1>
+                <p class="hero-subtitle">Design Rails equips Claude Code and Cursor with your product context, design system, and proven UX patterns, so AI-generated code respects your design standards from the first line.</p>
+                <a href="#install" class="cta-primary">Install Design Rails in 2 Minutes →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem Section -->
+    <section class="problem-section">
+        <div class="container">
+            <h2 class="section-title">Your AI Agent Writes Great Code. But Generic Design.</h2>
+            <div class="problem-content">
+                <p>You've handed off UI implementation to Cursor or Claude Code, and what comes back works—but it's lifeless. Generic buttons. Inconsistent spacing. Zero brand personality. No thought for edge cases or mobile users.</p>
+                <p>The problem isn't your agent. It's that it's designing blind—with zero context about your product, users, or design language.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Section -->
+    <section class="solution-section">
+        <div class="container">
+            <h2 class="section-title">Design Rails: The Context Layer AI Agents Need</h2>
+            <p class="section-subtitle">An MCP server that equips your coding agent with everything a designer would know about your product.</p>
+
+            <div class="capabilities-grid">
+                <div class="capability-card">
+                    <div class="capability-icon">
+                        <i data-lucide="target" stroke-width="2"></i>
+                    </div>
+                    <h3>Product Intelligence</h3>
+                    <p>Your agent knows who you're building for, your user personas, key workflows, and page structures—not just what to build, but why.</p>
+                </div>
+
+                <div class="capability-card">
+                    <div class="capability-icon">
+                        <i data-lucide="palette" stroke-width="2"></i>
+                    </div>
+                    <h3>Design System Memory</h3>
+                    <p>Component library. Brand guidelines. Typography rules. Color tokens. All synced and accessible so every generated UI stays on-brand.</p>
+                </div>
+
+                <div class="capability-card">
+                    <div class="capability-icon">
+                        <i data-lucide="library" stroke-width="2"></i>
+                    </div>
+                    <h3>Pattern Library Access</h3>
+                    <p>10,000+ proven UX patterns from the best products, including Stripe's error states, Linear's empty states, and Notion's navigation, ready to reference when solving design challenges.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works-section">
+        <div class="container">
+            <h2 class="section-title">From Feature Request to Polished Design—Automatically</h2>
+
+            <div class="process-steps">
+                <div class="process-step">
+                    <div class="step-number">1</div>
+                    <div class="process-step-content">
+                        <h3>You Describe the Feature</h3>
+                        <p>Tell your agent what you want to build—just like you normally would.</p>
+                    </div>
+                </div>
+
+                <div class="process-step">
+                    <div class="step-number">2</div>
+                    <div class="process-step-content">
+                        <h3>Design Rails Intercepts the Call</h3>
+                        <p>Before any code is written, the request routes through Design Rails to generate a comprehensive design specification.</p>
+                    </div>
+                </div>
+
+                <div class="process-step">
+                    <div class="step-number">3</div>
+                    <div class="process-step-content">
+                        <h3>Context Gets Assembled</h3>
+                        <p>Product goals, user workflows, design system components, brand guidelines, and relevant UX patterns—all pulled together instantly.</p>
+                    </div>
+                </div>
+
+                <div class="process-step">
+                    <div class="step-number">4</div>
+                    <div class="process-step-content">
+                        <h3>A Design Spec Is Created</h3>
+                        <p>Complete with layout decisions, component choices, responsive behavior, edge cases, error states, loading states, and accessibility considerations.</p>
+                    </div>
+                </div>
+
+                <div class="process-step">
+                    <div class="step-number">5</div>
+                    <div class="process-step-content">
+                        <h3>Your Agent Implements It</h3>
+                        <p>The coding agent receives a detailed design blueprint and writes code that matches—no more generic dropdowns or forgotten mobile breakpoints.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits-section">
+        <div class="container">
+            <h2 class="section-title">What You Get With Design Rails</h2>
+
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <h3>Scale Design Decisions Without Scaling Design Headcount</h3>
+                    <p>Your agents stop spinning their wheels on design decisions. Features that used to need design reviews now ship with confidence—maintaining the quality you're proud of.</p>
+                </div>
+
+                <div class="benefit-card">
+                    <h3>Maintain Consistency Across Your Product</h3>
+                    <p>No more franken-UI. Design Rails ensures every new component respects your design system, follows established patterns, and maintains brand coherence.</p>
+                </div>
+
+                <div class="benefit-card">
+                    <h3>Use Proven Patterns, Not Generic Defaults</h3>
+                    <p>Access to battle-tested patterns from industry leaders means your AI agent taps into collective design wisdom—not just generic Material UI components.</p>
+                </div>
+
+                <div class="benefit-card">
+                    <h3>Cover Edge Cases That Always Get Forgotten</h3>
+                    <p>Empty states. Error messages. Loading indicators. Mobile layouts. The unglamorous-but-essential details that separate amateur from professional UI.</p>
+                </div>
+
+                <div class="benefit-card">
+                    <h3>Extend Designer Thinking Through Every Commit</h3>
+                    <p>When designers define your system, patterns, and standards—Design Rails ensures those decisions get applied correctly every time. This frees them to work on novel UX problems, user research, and strategic improvements instead of repetitive component decisions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Proof Section -->
+    <section class="social-proof-section">
+        <div class="container">
+            <h2 class="section-title">Trusted by Teams Who Ship Fast</h2>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <p class="testimonial-quote">"Design Rails turned our AI agents from code generators into design-aware collaborators. We're shipping features 3x faster without sacrificing quality."</p>
+                    <div class="testimonial-author">
+                        <span class="author-name">Engineering Lead</span>
+                        <span class="author-title">Tech Company</span>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <p class="testimonial-quote">"As a solo designer supporting 12 engineers, Design Rails lets me define patterns once and trust they'll be implemented correctly. I spend my time on user research and complex flows, not reviewing button states."</p>
+                    <div class="testimonial-author">
+                        <span class="author-name">Senior Designer</span>
+                        <span class="author-title">Product Company</span>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <p class="testimonial-quote">"Our design system was gathering dust in Figma. Now it's actually enforced in code. Engineers use it because it's easier than guessing, and I finally have time to evolve our patterns instead of policing them."</p>
+                    <div class="testimonial-author">
+                        <span class="author-name">Design System Lead</span>
+                        <span class="author-title">Enterprise Company</span>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <p class="testimonial-quote">"The UX pattern library alone is worth it. It's like having a design reference library in your agent's brain."</p>
+                    <div class="testimonial-author">
+                        <span class="author-name">Product Lead</span>
+                        <span class="author-title">Startup</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="section-title">FAQ</h2>
+
+            <div class="faq-list">
+                <div class="faq-item">
+                    <h3 class="faq-question">What agents does it work with?</h3>
+                    <p class="faq-answer">Any coding agent that supports MCP: Claude Code, Cursor, Windsurf, Cline, and any VS Code agent extensions.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">How do I customize it for my product?</h3>
+                    <p class="faq-answer">Design Rails references asks your coding agent to generate a summary of your styles and product based on the code. Your agent creates markdown files that Design Rails uses as context. Everything lives in version-controlled files you can update anytime.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">Can I add my own UX patterns?</h3>
+                    <p class="faq-answer">Absolutely. The pattern library is extensible. Add internal patterns your team has developed alongside the universal library.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">What if my design system changes?</h3>
+                    <p class="faq-answer">Update your design system config and all future generations immediately reflect the changes. No retraining required.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">How detailed are the design specs?</h3>
+                    <p class="faq-answer">Extremely. Layout structure, component choices, spacing, typography, responsive breakpoints, interactive states, error handling, loading states, empty states, accessibility considerations—everything needed for implementation.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">Does this replace designers?</h3>
+                    <p class="faq-answer">Design Rails amplifies designers, not replaces them. Think of it as scaling their expertise across your entire engineering team. Designers define the system, patterns, and standards once—Design Rails ensures those decisions get applied correctly every time code is written. This frees designers to work on what humans do best: solving novel UX problems, conducting research, and evolving your design language. Meanwhile, AI handles what AI does best: applying known patterns consistently at scale.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">Is this open source?</h3>
+                    <p class="faq-answer">You own the markdown files with context of your product, and the design specs that are generated on your behalf. The design spec generator sits behind an MCP and is closed-source.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="final-cta-section" id="install">
+        <div class="container">
+            <h2 class="section-title">Stop Generating Sloppy UI. Start Shipping Design That Respects Your Standards.</h2>
+            <p class="cta-description">Install Design Rails in 1 minute with a single command. Give your AI agents the design intelligence they've been missing.</p>
+
+            <div class="install-command">
+                <code>npm install -g @design-rails/mcp-server</code>
+                <button class="copy-button" aria-label="Copy command">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                        <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                    </svg>
+                </button>
+            </div>
+
+            <a href="#" class="cta-primary">Add Design Intelligence to Your Agent</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-tagline"><strong>Design Rails</strong>: The context layer that gives AI code agents the design intelligence they're missing.</p>
+            <p class="footer-copyright">&copy; 2024 Design Rails. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="/design-rails-landing/js/webgl-background.js"></script>
+    <script src="/design-rails-landing/js/animations.js"></script>
+    <script src="/design-rails-landing/js/main.js"></script>
+</body>
+</html>

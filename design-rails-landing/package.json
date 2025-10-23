@@ -1,0 +1,22 @@
+{
+  "name": "design-rails-landing",
+  "version": "1.0.0",
+  "description": "Landing page for Design Rails - Give your AI coding agent design intelligence",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server -p 8000 -o",
+    "dev": "npx http-server -p 8000 -o -c-1"
+  },
+  "keywords": [
+    "design-rails",
+    "landing-page",
+    "webgl",
+    "design-system"
+  ],
+  "author": "Design Rails Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "playwright": "^1.56.1"
+  }
+}
